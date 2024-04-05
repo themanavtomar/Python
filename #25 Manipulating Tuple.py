@@ -1,0 +1,28 @@
+countries=("spain","Italy","india","england","germany")
+print(countries)
+temp=list(countries)
+temp.append("Russia")
+print(temp)
+temp.pop(3)
+print(temp)
+temp.insert(1,"nepal")
+temp[2]="america"
+print(temp)
+countries=tuple(temp)
+print(countries)
+#we can concatenate also in tuple
+a=(1,2,3,4,5,6)
+b=(7,8,9,10)
+print(a+b)
+#count   syntax:tuple.count(element)
+tup=(1,2,3,3,4,5,6,7,8)
+res=tup.count(4)
+print(res)
+#index() method Syntax: tuple.index(element,start,end)
+tup=(1,2,3,4,5,6,7,8)
+res=tup.index(8)
+print(res)
+res=tup.index(6,2,8)
+print(res)
+
+
